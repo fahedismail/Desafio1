@@ -1,0 +1,52 @@
+.cabecalho{
+    margin: .5em;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logotitulo{
+   color: var(--cor-pcinzaescura);
+   font-size: 18px;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.cabecalho_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5em;
+}
+
+.cabecalho_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.categoria_link{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--cor-pcinza);
+    padding: 0 .5em;
+    font-weight: 500;
+}
+
+.cabecalho_usuario{
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+    gap: .5em;
+    
+}
+
+.botaovermelho{
+    background: var(--cor-pvermelho);
+    color: var(--cor-pbranco);
+    font-size: 16px;
+    font-weight: 500;
+    padding: .5em;
+    border-radius: 8px;
+    text-decoration: none;
+}

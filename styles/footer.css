@@ -1,0 +1,54 @@
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding-top: 96px 30vw;
+    align-items: center;
+    
+}
+
+.foot_input{
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.foot_titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-ppreto);
+    padding-bottom: 20px;
+}
+
+.foot_texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+}
+
+.emails{
+border-radius: 8px;
+border: 1px solid #d0d5dd;
+font-size: 16px;
+color: var(--cor-pcinzaescuro);
+font-weight: 500;
+padding: .5em;
+width: 360px;
+}
+
+.botaocadastrar{
+    background: var(--cor-pvermelho);
+    border-radius: 8px;
+    color: var(--cor-pbranco);
+    font-size: 16px;
+    font-weight: 500;
+    padding: .5em;
+}
+
+.foot_licenca{
+    font-size: 16x;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+    padding-bottom: 96px;
+}

@@ -1,0 +1,194 @@
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobrenos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 30vw;
+    text-align: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.sobre{
+    color: var(--cor-pvermelho);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tituloum{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-ppreto);
+}
+
+.textoum{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+    width: 792px;
+}
+
+.artigos{
+    display: flex;
+    gap: 2em;
+    padding: 0 5vw;
+    margin: 2.5em 0;
+}
+
+.artigos_categoria{
+gap: 2em;
+width: 280px;
+}
+
+.artigos_titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-pvermelho);
+}
+
+.artigos_subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-pcinzaescuro)
+}
+
+.artigos_texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+    padding: .5em 0 0 0;
+}
+
+.vagas_descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 96px 0;
+}
+
+.vagas_subtitulo{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-pvermelho);
+    background:  rgba(142, 36, 36, 0.05);
+    padding: 1em;
+    border-radius: 16px ;
+    
+}
+
+.vagas_titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-ppreto);
+    margin: .5em 0;
+}
+
+.vagas_texto{
+    font-size: 20px ;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+}
+
+.vagas_foto{
+    padding: 64px 0;
+}
+
+.vagas_lista{
+    padding: 0 20vw;
+}
+
+.descricao_titulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-ppreto);
+}
+
+.descricao_borda{
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    margin: .5em 0;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 24px 0px 0px 24px;
+}
+
+.descricao_borda:hover{
+    background: var(--cor-pcinza);
+    .descricao_subtitulo,
+    .descricao_textde{
+        color: var(--cor-pbranco);
+    }
+
+    .descricao_subtitulo{
+        font-size: 24px;
+    }
+}
+
+.descricao_subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-ppreto);
+}
+
+.descricao_textde{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-pcinza);
+}
+
+.descricao_texto{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    padding: 32px 0 0 0;
+}
+
+.descricao_lista{
+    padding: 24px 0 96px 0; 
+
+}
+
+.comentario_container{
+    margin: 0 5vw 96px 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+    background: rgba(195.50, 25.25, 25.25, 0.03);
+    padding: 64px;
+}
+
+.comentario_subtitulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-pvermelho);
+}
+
+.comentario_titulo{
+    font-size: 36;
+    font-weight: 500;
+    color: var(--cor-ppreto);
+    width: 1088px;
+    padding: 16px 0;
+}
+
+.comentario_nome{
+    font-size: 16;
+    font-weight: 500;
+    color: var(--cor-ppreto);
+}
+
+.comentario_profissao{
+    font-size: 14;
+    font-weight: 400;
+    color: var(--cor-pcinza);
+}
